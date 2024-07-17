@@ -1,0 +1,95 @@
+.profile-1 {
+  width: 200px;
+  border: none;
+  border-radius: 20px;
+  vertical-align: top;
+}
+.profile-2 {
+  width: 150px;
+  vertical-align: top;
+}
+.profile-3 {
+  width: 200px;
+  border: none;
+  border-radius: 100px;
+  vertical-align: top;
+}
+.textbox-1 {
+  font-size: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 6px; 
+  padding-right: 6px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(127, 122, 122);
+  border-radius: 2px;
+  margin-top: 18px;
+}
+.textbox-2 {
+  width: 350px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+p {
+  margin: 0;
+}
+.text-1 {
+  margin-top: 18px;
+  font-size: 18px;
+  color: grey;
+}
+.textbox-3 {
+  width: 340px;
+  margin-top: 5px;
+  border-style: solid;
+  border-width: 1px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+.text-2 {
+  color: grey;
+  font-size: 15px;
+  margin-top: 5px;
+}
+.btn {
+  background-color: rgb(32, 32, 201);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 350px;
+  margin-top: 5px;
+}
+.profile-4 {
+  width: 50px;
+  border-radius: 25px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.textbox-4 {
+  border: none;
+  font-size: 14px;
+  color: grey;
+  vertical-align: middle;
+}
+.btn-1 {
+  border: none;
+  background-color: blue;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 18px;
+  vertical-align: middle;
+}
