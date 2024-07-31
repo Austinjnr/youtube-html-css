@@ -3,7 +3,8 @@
   <head>
     <title>Display Block and Inline-Block</title>
     <style>
-      .textbox-1, .textbox-2 {
+      .textbox-1,
+      .textbox-2 {
         display: block;
         margin-bottom: 5px;
         border-style: solid;
@@ -20,7 +21,8 @@
         vertical-align: middle;
         margin-right: 10px;
       }
-      .btn-1, .btn-2 {
+      .btn-1,
+      .btn-2 {
         background-color: white;
         padding-top: 5px;
         padding-bottom: 5px;
@@ -56,33 +58,45 @@
         color: white;
       }
 
-      .btn-1:active, .btn-2:active {
+      .btn-1:active,
+      .btn-2:active {
         scale: 0.9;
       }
-
-      .logo, .textbox-3 {
-        display: block;
-        margin-left: 40%;
-        width: 450px;
+      .logo-container {
+        text-align: center;
       }
       .logo {
-        width: 250px;
-        margin-left: 47%;
+        width: 200px;
+        margin-top: 10px;
+        margin-bottom: 10px;
       }
       .textbox-3 {
+        width: 500px;
         border: none;
         border-radius: 15px;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 5px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-        margin-bottom: 20px;
+        margin-bottom: 30px;
       }
       .textbox-3::placeholder {
         color: grey;
         font-size: 13px;
       }
-      .textbox-4,.textbox-4a, .textbox-5 {
+      .logo-btn {
+        background-color: gray;
+        color: black;
+        border: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 5px;
+      }
+      .textbox-4,
+      .textbox-4a,
+      .textbox-5 {
         display: block;
         margin-bottom: 8px;
         padding-top: 5px;
@@ -124,7 +138,8 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: 30px;
       }
-      .textbox-6, .textbox-7 {
+      .textbox-6,
+      .textbox-7 {
         display: block;
         width: 300px;
         padding-top: 10px;
@@ -135,7 +150,8 @@
         margin-bottom: 5px;
         border-radius: 5px;
       }
-      .btn-4, .btn-5 {
+      .btn-4,
+      .btn-5 {
         padding-top: 8px;
         padding-bottom: 8px;
         padding-left: 16px;
@@ -154,24 +170,44 @@
     </style>
   </head>
   <body>
-    <input class="textbox-1" type="text" placeholder="Name">
-    <input class="textbox-2" type="text" placeholder="Email">
+    <input class="textbox-1" type="text" placeholder="Name" />
+    <input class="textbox-2" type="text" placeholder="Email" />
 
-    <p class="text-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolore et ad aliquam esse, maiores magni, repudiandae odit atque error alias laudantium dolorem non quae sint! Maiores quam dolorem soluta.</p>
+    <p class="text-1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolore
+      et ad aliquam esse, maiores magni, repudiandae odit atque error alias
+      laudantium dolorem non quae sint! Maiores quam dolorem soluta.
+    </p>
     <button class="btn-1">Yes</button>
     <button class="btn-2">No</button>
+    
+      <div class="logo-container">
+        <img
+          class="logo"
+          src="profile/new google logo introduced as part of its identity update.jpeg"
+        />
+      </div>
+      <div class="logo-container">
+        <input
+        class="textbox-3"
+        type="text"
+        placeholder="Search Google or type a URL"
+      />
+      </div>
+      <div class="logo-container">
+        <button class="logo-btn">Google search</button>
+        <button class="logo-btn">I'm Feeling Lucky</button>
+      </div>
+    
 
-    <img class="logo" src="profile/new google logo introduced as part of its identity update.jpeg">
-    <input class="textbox-3" type="text" placeholder="Search Google or type a URL">
-
-    <input class="textbox-4" type="texttext" placeholder="First Name">
-    <input class="textbox-4a" type="text" placeholder="Last Name">
-    <input class="textbox-5" type="text" placeholder="Email">
+    <input class="textbox-4" type="texttext" placeholder="First Name" />
+    <input class="textbox-4a" type="text" placeholder="Last Name" />
+    <input class="textbox-5" type="text" placeholder="Email" />
     <button class="btn-3">Sign Up</button>
 
     <p class="text-6">Request a ride now</p>
-    <input class="textbox-6" type="text" placeholder="Enter pickup Location">
-    <input class="textbox-7" type="text" placeholder="Enter destination">
+    <input class="textbox-6" type="text" placeholder="Enter pickup Location" />
+    <input class="textbox-7" type="text" placeholder="Enter destination" />
     <button class="btn-4">Request now</button>
     <button class="btn-5">Schedule for later</button>
   </body>
