@@ -1,0 +1,175 @@
+p {
+  margin: 0;
+}
+.text-1 {
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.text-2a {
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.text-2b {
+  font-family: Arial;
+  font-size: 16px;
+  font-style: italic;
+  color: red;
+  margin-bottom: 8px;
+}
+.text-3a {
+  font-family: verdana;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.text-3b {
+  font-family: verdana;
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 5px;
+}
+.text-3c {
+  font-family: verdana;
+  font-size: 15px;
+  width: 280px;
+  margin-bottom: 8px;
+}
+.btn-1 {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding-top: 9px;
+  padding-right: 16px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  cursor: pointer;
+  transition: box-shadow 0.15s, opacity 0.15s;
+}
+
+.btn-1:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn-1:active {
+  opacity: 0.7;
+}
+
+.text-4a,
+.text-4b,
+.text-4c {
+  font-family: Arial;
+  text-align: center;
+}
+.text-4a {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.text-4b {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.text-4c {
+  color: blue;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.text-4c:hover {
+  text-decoration: underline;
+}
+
+.text-5a,
+.text-5b,
+.text-5c,
+.text-5d,
+.btn-2 {
+  font-family: Arial;
+  text-align: center;
+}
+.text-5a {
+  color: red;
+  margin-bottom: 5px;
+}
+.text-5b {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.text-5c {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.text-5d {
+  margin-bottom: 5px;
+}
+.btn-2 {
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+.btn-2 span {
+  background-color: rgb(21, 21, 181);
+  color: white;
+  padding-top: 8px;
+  padding-right: 14px;
+  padding-bottom: 8px;
+  padding-left: 14px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.text-6a,
+.text-6b,
+.text-6c {
+  margin: 0;
+  font-family: Arial;
+  margin-bottom: 5px;
+}
+.text-6a {
+  font-size: 18px;
+  font-weight: bold;
+}
+.text-6a span {
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(39, 38, 38, 0.948);
+  margin-left: 5px;
+}
+.text-6b {
+  color: green;
+  margin-bottom: 5px;
+}
+.text-6c {
+  color: gray;
+  margin-bottom: 8px;
+}
+.text-6c span {
+  color: red;
+}
+.text-7a,
+.text-7b,
+.text-7c {
+  font-family: Arial;
+}
+.text-7a {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.text-7a span {
+  font-weight: normal;
+  color: gray;
+}
+.text-7b,
+.text-7c {
+  width: 500px;
+  margin-bottom: 10px;
+}
+.text-7c span {
+  color: blue;
+}

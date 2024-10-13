@@ -1,28 +1,27 @@
 p {
   font-family: Arial;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 .video-title {
   font-weight: bold;
   font-size: 18px;
   width: 280px;
-  line-height: 25px;
+  line-height: 26px;
   margin-bottom: 5px;
 }
 .video-stats {
   font-size: 14px;
-  color: rgb(98, 96, 96);
+  color: rgb(96, 96, 96);
   margin-bottom: 20px;
 }
 .video-author {
   font-size: 14px;
-  color: rgb(98, 96, 96);
+  color: rgb(96, 96, 96);
   margin-bottom: 20px;
 }
 .video-description {
   font-size: 14px;
-  color: rgb(98, 96, 96);
+  color: rgb(96, 96, 96);
   width: 280px;
   line-height: 22px;
   margin-bottom: 100px;
@@ -30,16 +29,25 @@ p {
 .apple-text {
   margin-bottom: 50px;
   font-size: 14px;
-  background-color: rgb(227, 65, 65);
+  background-color: rgb(277, 65, 64);
   color: white;
   text-align: center;
   padding-top: 18px;
   padding-bottom: 18px;
 }
-.apple-text span {
+/* .span {
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  cursor: pointer;
+}
+.span:hover{
+  text-decoration: underline;
+} */
+.shop-link {
   cursor: pointer;
   margin-left: 5px;
+  transition: text-decoration 0.15s;
 }
-.apple-text span:hover {
+.shop-link:hover {
   text-decoration: underline;
 }
