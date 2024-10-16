@@ -1,0 +1,18 @@
+.flexbox-1 {
+  display: flex;
+  height: 50px;
+}
+.item-1a {
+  background-color: lightblue;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+.item-1a p {
+  background-color: black;
+  color: white;
+}
+.item-1b {
+  background-color: lightpink;
+  width: 200px;
+}

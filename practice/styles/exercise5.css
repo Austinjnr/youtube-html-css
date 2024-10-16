@@ -1,0 +1,110 @@
+.image-1 {
+  width: 200px;
+  border-radius: 8px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.image-2 {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.image-3 {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 100px;
+  vertical-align: middle;
+}
+.textbox-1 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+.textbox-2 {
+  font-size: 14px;
+  width: 350px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  margin-bottom: 8px;
+}
+.text-1a, .text-1b {
+  margin: 0;
+}
+.text-1a, .text-1b {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 5px;
+}
+.textbox-3 {
+  width: 250px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+}
+.btn-1 {
+  width: 260px;
+  background-color: rgb(36, 36, 185);
+  color: white;
+  border: none;
+  border-radius: 18px;
+  padding-top: 10px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  cursor: pointer;
+}
+.btn-1:hover {
+  background-color: white;
+  color: rgb(36, 36, 185);
+  border-color: rgb(36, 36, 185);
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 8px;
+}
+.image-4 {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  vertical-align: middle;
+}
+.textbox-4 {
+  width: 200px;
+  font-size: 15px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  /* border: none; */
+  vertical-align: middle;
+}
+.btn-2 {
+  font-weight: bold;
+  background-color: rgb(36, 36, 185);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding-top: 6px;
+  padding-right: 8px;
+  padding-bottom: 6px;
+  padding-left: 8px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.btn-2:hover {
+  opacity: 0.7;
+}

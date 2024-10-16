@@ -1,0 +1,174 @@
+.textbox-1a, .textbox-1b{
+  display: block;
+  margin-bottom: 8px;
+}
+.text-1, .btn-1a, .btn-1b {
+  vertical-align: middle;
+}
+.text-1 {
+  width: 200px;
+  line-height: 22px;
+  display: inline-block;
+}
+.btn-1a {
+  background-color: rgb(9, 210, 9);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  cursor: pointer;
+  margin-left: 5px;
+  transition: box-shadow 0.15s, background-color 0.15s, color 0.15s, border-color 0.15s, border-width 0.15s, padding 0.15s;
+}
+
+.btn-1a:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn-1a:active {
+  background-color: white;
+  color: rgb(9, 210, 9);
+  border-color: rgb(9, 210, 9);
+  border-style: solid;
+  border-width: 1px;
+  padding-top: 9px;
+  padding-right: 15px;
+  padding-bottom: 9px;
+  padding-left: 15px;
+}
+
+.btn-1b {
+  background-color: rgb(255, 9, 9);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  cursor: pointer;
+  margin-left: 5px;
+  transition: box-shadow 0.15s, background-color 0.15s, color 0.15s, border-color 0.15s, border-width 0.15s, padding 0.15s;
+}
+
+.btn-1b:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn-1b:active {
+  background-color: white;
+  color: rgb(255, 9, 9);
+  border-color: rgb(255, 9, 9);
+  border-style: solid;
+  border-width: 1px;
+  padding-top: 9px;
+  padding-right: 15px;
+  padding-bottom: 9px;
+  padding-left: 15px;
+}
+.logo, .textbox2, .btn-container {
+  text-align: center;
+}
+.image-1  {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+}
+.textbox-2 {
+  width: 400px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  border-radius: 18px;
+  border: none;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  margin-top: 5px;
+}
+.textbox-3a, .textbox-3b {
+  width: 150px;
+}
+.textbox-3c {
+  width: 320px;
+  margin-bottom: 10px;
+  display: block;
+}
+.textbox-3a, .textbox-3b, .textbox-3c {
+  border-color: grey ;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.btn-2 {
+  width: 335px;
+  background-color: rgb(32, 32, 198);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  cursor: pointer;
+  transition: opacity 0.15s, scale 0.15s;
+}
+
+.btn-2:hover {
+  opacity: 0.7;
+}
+
+.btn-2:active {
+  scale: 1.01;
+}
+
+.text-2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.textbox-4a, .textbox-4b {
+  display: block;
+  margin-bottom: 5px;
+  width: 250px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border: none;
+  background-color: rgb(225, 223, 223);
+}
+.btn-3a, .btn-3b {
+  margin-top: 8px;
+  margin-right: 8px;
+  border: none;
+  padding-top: 10px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  cursor: pointer;
+}
+.btn-3a {
+  background-color: black;
+  color: white;
+}
+
+.btn-3a:hover {
+  opacity: 0.7;
+}
+
+
+.btn-3b {
+  background-color: rgb(225, 223, 223);
+}
+
+.btn-3b:hover {
+  background-color: black;
+  color: white;
+}
