@@ -18,6 +18,7 @@
   width: 200px;
 }
 .flexbox-2 {
+  margin-bottom: 8px;
   display: flex;
   height: 100px;
 }
@@ -42,6 +43,143 @@
   color: white;
 }
 .item-2b p, .row2 p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.flexbox-3 {
+  width: 320px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-top: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+}
+.header-text {
+  font-family: Arial;
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+.content {
+display: flex;
+align-items: center;
+margin-bottom: 8px;
+}
+.image-1 {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.content-description {
+  margin-left: 5px;
+}
+.content-description p {
+  font-family: Arial;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section .title-1{
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+.section .time {
+  color: gray;
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+.title-2  {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+.info {
+  color: gray;
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.tweet {
+  margin-top: 8px;
+  width: 400px;
+  padding-top: 10px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  display: flex;
+}
+.tweet-profile {
+  width: 50px;
+}
+.tweet-profile img {
+  width: 100%;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.tweet-description {
+  flex: 1;
+  margin-left: 8px;
+}
+.user-content {
+  margin-bottom: 8px;
+}
+.user-content p {
+  font-family: Arial;
+}
+.username {
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.username span {
+  color: gray;
+  font-weight: normal;
+  margin-left: 5px;
+}
+.user-tweet {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.retweet {
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  column-gap: 10px;
+  align-items: center;
+  overflow: hidden;
+}
+.retweet img {
+  background-color: rgb(203, 202, 202);
+  width: 100%;
+}
+.retweet-text {
+  font-family: Arial;
+}
+.text-1 {
+  color: gray;
+  font-size: 17px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.text-2 {
   margin-top: 0;
   margin-bottom: 0;
 }
