@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Position Practice</title>
+  </head>
+  <body style="height: 3000px; padding-top: 60px; padding-left: 80px">
+    <div
+      style="
+        background-color: black;
+        color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+        z-index: 100;
+      "
+    >
+      HEADER
+    </div>
+
+    <div
+      style="
+        position: absolute;
+        background-color: red;
+        color: white;
+        top: 60px;
+        right: 10px;
+      "
+    >
+      Absolute
+    </div>
+
+    <div
+      style="
+        background-color: green;
+        color: white;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 50px;
+        width: 72px;
+      "
+    >
+      sidebar
+      <div
+        style="
+          position: absolute;
+          background-color: red;
+          color: white;
+          top: 0;
+          right: 0;
+        "
+      >
+        X
+      </div>
+    </div>
+
+    <div
+      style="
+        background-color: lightblue;
+        height: 200px;
+        width: 200px;
+        position: static;
+      "
+    >
+      div1
+    </div>
+    <div
+      style="
+        background-color: lightpink;
+        height: 200px;
+        width: 200px;
+        position: relative;
+      "
+    >
+      <div style="position: absolute; background-color: black; color: white; bottom: 10px; right: 10px;">5:00
+      </div>
+      div2
+    </div>
+
+    <div style="background-color: black; color: white; position: absolute; top: 90px; right: 10px; padding-top: 10px; padding-right: 13px; padding-bottom: 10px; padding-left: 13px; border-radius: 35px;">X</div>
+
+    <div style="width: 320px; height: 180px; background-color: gray; position: fixed; bottom: 0; right: 10px;">
+      <div style="background-color: black; color: white; position: absolute; top: -20px; left: -20px; padding-top: 10px; padding-right: 13px; padding-bottom: 10px; padding-left: 13px; border-radius: 35px;">X</div>
+      <div style="background-color: black; color: white; position: absolute; bottom: 5px; right: 5px; padding-top: 2px; padding-bottom: 2px; padding-right: 2px; padding-left: 2px;  border-radius: 2px;">0:29</div>
+    </div>
+
+    <div style="position: relative; margin-top: 8px; width: 300px;">
+      <img style="width: 100%;" src="../practice/images/_.jpeg" alt="">
+      <div style="background-color: black; color: white; position: absolute; top: 10px; right: 0; padding-top: 10px; padding-bottom: 10px; padding-right: 10px; padding-left: 16px;">20% 0FF</div>
+      <div style="background-color: rgba(211, 211, 211, 0.275);  position: absolute; bottom: 0; width: 100%; height: 30%; display: flex; align-items: center; justify-content: center;"> 
+        <button style="padding-top: 10px; padding-right: 8px; padding-bottom: 10px; padding-left: 8px; cursor: pointer;">Add to Cart</button>
+      </div>  
+    </div>
+  </body>
+</html>
