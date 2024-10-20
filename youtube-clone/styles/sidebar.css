@@ -33,12 +33,12 @@
 @media (min-width: 1200px) {
   .sidebar {
     width: 200px;
-    padding: 5px 0 0 20px;
   }
   .sidebar-link {
     height: 50px;
     flex-direction: row;
     justify-content: flex-start;
+    padding-left: 20px;
   }
   .sidebar-link img   {
     margin-bottom: 0px;
