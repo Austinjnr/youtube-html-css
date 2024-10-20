@@ -2,6 +2,14 @@
 # YouTube Clone Project
 
 This project is a clone of YouTube, built as part of a tutorial to learn HTML and CSS.
+<a href="https://youtube-html-css-clone.vercel.app/">Live Link</a>
+
+
+## Screenshots
+<div style="display: grid; grid-template-columns: 1fr  100px">
+<img style="width: 100%" src="./youtube-clone/Project/Screenshot from 2024-10-20 11-23-40.png" alt="">
+<img style="width: 100%;" src="./youtube-clone/Project/Screenshot from 2024-10-20 11-24-14.png" alt="">
+</div>
 
 ## Project Overview
 
