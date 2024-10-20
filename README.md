@@ -6,8 +6,8 @@ This project is a clone of YouTube, built as part of a tutorial to learn HTML an
 
 
 ## Screenshots
-<img align="left" src="./youtube-clone/Project/Screenshot from 2024-10-20 11-23-40.png" alt="">
-<img align="right"src="./youtube-clone/Project/Screenshot from 2024-10-20 11-24-14.png" alt="">
+<img width="400px" align="left" src="./youtube-clone/Project/Screenshot from 2024-10-20 11-23-40.png" alt=""> 
+<img width="200px" align="right"src="./youtube-clone/Project/Screenshot from 2024-10-20 11-24-14.png" alt="">
 
 ## Project Overview
 
