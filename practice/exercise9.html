@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Grid practice</title>
+  </head>
+  <body>
+    <div style="display: grid; grid-template-columns: 200px 75px">
+      <div style="background-color: lightblue">200px</div>
+      <div style="background-color: lightpink">75px</div>
+    </div>
+
+    <div
+      style="
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+      "
+    >
+      <div style="background-color: lightblue">col-1</div>
+      <div style="background-color: lightpink">col-2</div>
+      <div style="background-color: lightblue">col-1</div>
+    </div>
+
+    <div
+      style="
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 40px;
+      "
+    >
+      <div style="background-color: lightcoral">col-1</div>
+      <div style="background-color: lightcoral">col-2</div>
+      <div style="background-color: lightcoral">col-3</div>
+      <div style="background-color: lightcoral">col-4</div>
+      <div style="background-color: lightblue">col-1</div>
+      <div style="background-color: lightblue">col-2</div>
+      <div style="background-color: lightblue">col-3</div>
+      <div style="background-color: lightblue">col-4</div>
+    </div>
+  </body>
+</html>

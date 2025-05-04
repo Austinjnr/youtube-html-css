@@ -1,0 +1,114 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.gmail {
+  padding: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 351px;
+}
+.title {
+  color: rgb(151, 151, 151);
+  padding-left: 4px;
+}
+.div-1 {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.profile {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  padding: 4px;
+}
+.picture {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.info .a {
+  display: flex;
+  justify-content: space-between;
+}
+.highlight, .highlight-2 {
+  font-weight: bold;
+}
+.time, .text {
+  font-size: 14px;
+  color: rgb(151, 151, 151);
+}
+.highlight-2 {
+  font-size: 14px;
+  margin-top: 3px;
+}
+.text {
+  margin-top: 3px;
+}
+.twitter {
+  margin-top: 30px;
+  padding: 5px;
+  display: flex;
+  width: 400px;
+}
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.picture-1 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.tweet-container {
+  flex: 1;
+}
+.user-name {
+  font-weight: bold;
+  margin-top: 5px;
+}
+.user-name span{
+  font-weight: normal;
+  color: gray;
+}
+.tweet {
+  line-height: 22px;
+  margin-top: 5px;
+}
+.retweet {
+  margin-top: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+}
+.retweet-image {
+  background-color: rgb(212, 212, 212);
+  width: 100px;
+}
+.retweet-image img {
+  width: 100%;
+  overflow: hidden;
+}
+.retweet-text {
+  flex: 1;
+  padding: 10px;
+}
+.retweet-header {
+  color: gray;
+}
+.retweet-paragraph {
+  line-height: 22px;
+  margin-top: 5px;
+}

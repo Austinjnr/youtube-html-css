@@ -1,0 +1,149 @@
+body {
+  height: 1000px;
+}
+.input-1 {
+  display: block;
+  margin-top: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-family: Arial;
+}
+.text-1 {
+  font-family: Arial;
+  width: 400px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 20px;
+}
+.btn-a, .btn-b {
+  vertical-align: middle;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 16px;
+  padding-left: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  margin-left: 5px;
+  transition: scale 0.15s;
+}
+.btn-a {
+  background-color: green;
+}
+
+.btn-a:active {
+  scale: 0.9;
+}
+
+.btn-b {
+  background-color: red;
+}
+
+.btn-b:active {
+  scale: 0.9;
+}
+
+.image-1 {
+  width: 300px;
+  display: block;
+  margin-left: 450px;
+}
+.input-2 {
+  display: block;
+  width: 400px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  border-radius: 18px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 8px;
+  margin-left: 400px;
+  margin-bottom: 50px;
+}
+.input-3a, .input-3b, .input-3c {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+.input-3a, .input-3b {
+  width: 145px;
+}
+.input-3c {
+  display: block;
+  width: 305px;
+}
+.btn-3 {
+  background-color: rgba(31, 89, 215, 0.937);
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  width: 315px;
+  border: none;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 16px;
+  padding-left: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+p {
+  margin: 0;
+}
+.text-2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+.input-4a {
+  background-color: rgb(227, 227, 227);
+  font-size: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  width: 300px;
+  border: none;
+  margin-bottom: 8px;
+  display: block;
+}
+.btn-3a, .btn-3b {
+  margin-top: 10px;
+}
+.btn-3a {
+  background-color: black;
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  cursor: pointer;
+}
+.btn-3b {
+  background-color: rgb(227, 227, 227);
+  color: black;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}

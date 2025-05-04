@@ -1,0 +1,129 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.div-1 {
+  width: 300px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.a-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 7px;
+}
+.text-2 {
+  background-color: rgba(18, 53, 231, 0.921);
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 9px;
+  padding-left: 9px;
+  border-radius: 11px;
+}
+.div-2 {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(146, 81, 206, 0.901);
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 8px;
+  padding-left: 10px;
+  margin-top: 30px;
+}
+.a p {
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+}
+.b {
+  width: 500px;
+}
+.b input {
+  width: 100%;
+  border: none;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.c button {
+  background-color: rgba(146, 81, 206, 0.901);
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.div-3 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 10px;
+  background-color: beige;
+}
+.div-3a, .div-3b, .div-3c {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.div-3a-info {
+  display: flex;
+  flex-direction: row;
+}
+.image {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.text-a {
+  font-weight: 700;
+  font-size: 14px;
+}
+.text-b, .text-c {
+  color: gray;
+  margin-top: 3px;
+}
+.text-b {
+  font-size: 15px;
+}
+.text-c {
+  font-size: 14px;
+}
+.btn-3 button {
+  background-color: rgb(39, 39, 175);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}

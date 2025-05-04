@@ -1,0 +1,47 @@
+.div-1 {
+  display: flex;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.div-1a {
+  background-color: aqua;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+.div-1a p {
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.div-1b {
+  background-color: lightcoral;
+  width: 200px;
+}
+.div-2 {
+  display: flex;
+  margin-top: 30px;
+}
+.div-2a {
+  background-color: aqua;
+  width: 100px;
+}
+.div-2b {
+  background-color: lightcoral;
+  width: 200px;
+}
+.div-2b .text {
+  margin-top: 10px;
+}
+.div-2c {
+  display: flex;
+  justify-content: space-between;
+}
+.div-2c p {
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+}

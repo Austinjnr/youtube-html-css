@@ -1,0 +1,118 @@
+.btn1 {
+  padding-top: 10px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+a {
+  margin-right: 4px;
+  font-weight: bold;
+}
+.btn-1 {
+  padding-top: 10px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+.btn-2 {
+  background-color: green;
+  color: white;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-right: 11px;
+  padding-bottom: 5px;
+  padding-left: 11px;
+  border: none;
+  margin-left: 8px;
+  transition: padding 0.15s;
+}
+
+.btn-2:hover {
+  padding-top: 15px;
+  padding-right: 21px;
+  padding-bottom: 15px;
+  padding-left: 21px;
+}
+
+.btn-3 {
+  background-color: green;
+  color: white;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  border: none;
+  margin-left: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-3:active {
+  box-shadow: none;
+  margin-left: 3px;
+  margin-top: 3px;
+}
+
+.btn-4a {
+  background-color: green;
+  color: white;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-right: 11px;
+  padding-bottom: 5px;
+  padding-left: 11px;
+  border: none;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: padding 0.15s, margin-left 0.15s;
+}
+
+.btn-4a:hover {
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-left: 5px;
+}
+
+.btn-4b {
+  background-color: green;
+  color: white;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-right: 11px;
+  padding-bottom: 5px;
+  padding-left: 11px;
+  border: none;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: padding 0.15s, margin-left 0.15s;
+}
+
+.btn-4b:hover {
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-left: 5px;
+}
+
+.btn-4c {
+  background-color: green;
+  color: white;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-right: 11px;
+  padding-bottom: 5px;
+  padding-left: 11px;
+  border: none;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: padding 0.15s, margin-left 0.15s;
+}
+
+.btn-4c:hover {
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-left: 5px;
+}

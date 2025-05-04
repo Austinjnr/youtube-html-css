@@ -1,0 +1,163 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.font {
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 25px;
+}
+.text-1a {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.text-1b {
+  font-family: Verdana;
+  font-size: 15px;
+  color: rgb(96, 96, 96);
+  margin-top: 8px;
+}
+.text-1c {
+  font-family: Verdana;
+  width: 280px;
+  margin-top: 8px;
+}
+.btn-1 {
+  font-family: Verdana;
+  background-color: rgb(7, 103, 14);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.text-2a {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.text-2b {
+  color: red;
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 8px;
+}
+.text-3a {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+.text-3b {
+  font-family: Arial;
+  text-align: center;
+  margin-top: 8px;
+}
+.text-3c {
+  font-family: Arial;
+  text-align: center;
+  color: rgb(25, 95, 226);
+  margin-top: 8px;
+  cursor: pointer;
+  transition: text-decoration 0.15s;
+}
+
+.text-3c:hover {
+  text-decoration: underline;
+}
+
+.text-4a {
+  font-family: Arial;
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+.text-4b {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5px;
+}
+.text-4c {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5px;
+}
+.text-4d {
+  font-family: Arial;
+  color: gray;
+  text-align: center;
+  margin-top: 5px;
+}
+.text-4e {
+  font-family: Arial;
+  background-color: rgb(18, 112, 219);
+  border-radius: 18px;
+  margin-left: 600px;
+  margin-right: 600px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.text-5 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.text-5a {
+  font-family: Arial;
+  color: grey;
+  font-size: 15px;
+}
+.text-5b {
+  font-family: Arial;
+  color: green;
+  margin-top: 8px;
+}
+.text-5c {
+  font-family: Arial;
+  color: grey;
+  margin-top: 8px;
+}
+.text-5d {
+  color: red;
+}
+.text-6 {
+  font-family: Arial;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.text-6a {
+  color: gray;
+  font-weight: normal;
+}
+.text-6b {
+  font-family: Arial;
+  margin-top: 8px;
+  width: 500px;
+}
+.text-6c {
+  font-family: Arial;
+  margin-top: 15px;
+  margin-bottom: 100px;
+}
+.text6 {
+  color: rgb(28, 93, 235);
+  cursor: pointer;
+}

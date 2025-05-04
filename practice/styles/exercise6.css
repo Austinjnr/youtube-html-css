@@ -1,0 +1,135 @@
+.img-1 {
+  width: 250px;
+  border: none;
+  border-radius: 8px;
+  vertical-align: top;
+}
+.img-2 {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  vertical-align: top;
+  margin-left: 8px;
+}
+.img-3 {
+  width: 200px;
+  border: none;
+  border-radius: 100px;
+  vertical-align: top;
+  margin-left: 8px;
+}
+.input-1 {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: gray;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  font-size: 14px;
+  vertical-align: top;
+  margin-left: 8px;
+}
+.input-2 {
+  width: 300px;
+  font-size: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  vertical-align: top;
+  margin-left: 8px;
+}
+
+p {
+  font-family: Arial;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.text-3a {
+  color: gray;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+.input-3 {
+  width: 345px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.text-3b {
+  color: gray;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.btn-3 {
+  background-color: blue;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-radius: 30px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 346px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.btn-3:hover {
+  opacity: 0.7;
+}
+
+.btn-3:active {
+  opacity: 0.5;
+}
+
+.img-4  {
+  width: 50px;
+  border: none;
+  border-radius: 25px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+.input-4 {
+  width: 250px;
+  font-family: Arial;
+  font-weight: bold;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 4px;
+  vertical-align: middle;
+}
+.btn-4 {
+  background-color: blue;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 19px;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-left: 5px;
+  transition: opacity 0.15s;
+}
+
+.btn-4:hover {
+  opacity: 0.8;
+}
+
+.btn-4:active {
+  opacity: 0.6;
+}

@@ -1,0 +1,46 @@
+.div-1 {
+  display: flex;
+  flex-direction: row;
+}
+.div-1 .a {
+  background-color: lightblue;
+  width: 200px;
+}
+.div-1 .b {
+  background-color: lightcoral;
+  width: 75px;
+}
+.div-2 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.div-2 .a {
+  background-color: lightblue;
+  width: 50px;
+}
+.div-2 .b {
+  background-color: lightcoral;
+  flex: 1;
+}
+.div-2 .c {
+  background-color: lightblue;
+  width: 75px;
+}
+.div-3 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
+.div-3 .a {
+  background-color: lightblue;
+}
+.div-3 .b {
+  background-color: lightcoral;
+}
