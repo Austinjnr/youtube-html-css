@@ -11,7 +11,6 @@ This project is a basic front-end clone of the YouTube homepage, built as part o
   <img src="snap-shots/snap2.png" alt="Screenshot 2" width="45%">
 </p>
 
-[▶️ Watch Demo Video](snap-shots/demo.mp4)
 
 
 ## Installation
@@ -58,4 +57,4 @@ During the course of this project, I learned and practiced:
 
   + This project was contributed by:
 
-   1. Austin Obonyo: [AustinJnr](https://github.com/Austinjnr)
+     Austin Obonyo: [AustinJnr](https://github.com/Austinjnr)
