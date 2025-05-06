@@ -67,10 +67,10 @@
   position: absolute;
   background-color: gray;
   color: white;
-  padding: 4px 8px;
+  padding: 6px 10px;
   border-radius: 2px;
   font-size: 12px;
-  bottom: -30px;
+  bottom: -45px;
   opacity: 0;
   transition: opacity 0.15s;
   pointer-events: none;
