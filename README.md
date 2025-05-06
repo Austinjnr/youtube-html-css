@@ -49,3 +49,9 @@ During the course of this project, I learned and practiced:
 - CSS Positioning: `static`, `relative`, and `absolute`
 
 - Basic responsive design and spacing techniques
+
+## Authors
+
+  + This project was contributed by:
+
+   1. Austin Obonyo: [AustinJnr](https://github.com/Austinjnr)
