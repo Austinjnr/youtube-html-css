@@ -6,8 +6,10 @@ This project is a basic front-end clone of the YouTube homepage, built as part o
 
 ## Screenshots
 
-![Homepage Preview](snap-shots/snap1.png)
-![App Screenshot](snap-shots/snap2.png)
+<p align="center">
+  <img src="snap-shots/snap1.png" alt="Screenshot 1" width="45%">
+  <img src="snap-shots/snap2.png" alt="Screenshot 2" width="45%">
+</p>
 
 
 ## Installation
